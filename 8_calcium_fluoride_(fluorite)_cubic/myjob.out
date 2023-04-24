@@ -1,0 +1,48 @@
+ running on   32 total cores
+ distrk:  each k-point on   32 cores,    1 groups
+ distr:  one band on    8 cores,    4 groups
+ using from now: INCAR     
+ vasp.5.3.3 18Dez12 (build Jun 24 2015 15:58:02) complex                        
+  
+ POSCAR found type information on POSCAR  Ca F 
+ POSCAR found :  2 types and      12 ions
+ scaLAPACK will be used
+
+ ----------------------------------------------------------------------------- 
+|                                                                             |
+|           W    W    AA    RRRRR   N    N  II  N    N   GGGG   !!!           |
+|           W    W   A  A   R    R  NN   N  II  NN   N  G    G  !!!           |
+|           W    W  A    A  R    R  N N  N  II  N N  N  G       !!!           |
+|           W WW W  AAAAAA  RRRRR   N  N N  II  N  N N  G  GGG   !            |
+|           WW  WW  A    A  R   R   N   NN  II  N   NN  G    G                |
+|           W    W  A    A  R    R  N    N  II  N    N   GGGG   !!!           |
+|                                                                             |
+|      For LVTOT=.TRUE. VASP.5.x writes the TOTAL local potential to          |
+|      the file LOCPOT. If you want the Hartree contributions only, use       |
+|      LVHAR=.TRUE. instead.                                                  |
+|                                                                             |
+ ----------------------------------------------------------------------------- 
+
+ LDA part: xc-table for Pade appr. of Perdew
+ WARNING: stress and forces are not correct
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: small aliasing (wrap around) errors must be expected
+ FFT: planning ...
+ WAVECAR not read
+ charge-density read from file: Fluorite                                
+ magnetization density read from file 1
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1     0.184619151539E+04    0.18462E+04   -0.41790E+04 78336   0.148E+03
+DAV:   2     0.232647899546E+03   -0.16135E+04   -0.15532E+04102044   0.670E+02
+DAV:   3    -0.648277167744E+02   -0.29748E+03   -0.27843E+03121204   0.317E+02
+DAV:   4    -0.881903189746E+02   -0.23363E+02   -0.23101E+02124232   0.111E+02
+DAV:   5    -0.893543811827E+02   -0.11641E+01   -0.11553E+01127140   0.295E+01
+RMM:   6    -0.893991944772E+02   -0.44813E-01   -0.44813E-01 81866   0.757E+00
+RMM:   7    -0.894254164506E+02   -0.26222E-01   -0.25820E-01124697   0.174E+00
+RMM:   8    -0.894263456194E+02   -0.92917E-03   -0.16288E-02122018   0.606E-01
+RMM:   9    -0.894267870065E+02   -0.44139E-03   -0.45077E-03113868   0.143E-01
+RMM:  10    -0.894267762544E+02    0.10752E-04   -0.12226E-04 79943   0.947E-02
+RMM:  11    -0.894267780551E+02   -0.18007E-05   -0.17392E-05 68050   0.314E-02
+   1 F= -.89426778E+02 E0= -.89426778E+02  d E =-.262817E-35  mag=    -0.0001
+ writing wavefunctions
